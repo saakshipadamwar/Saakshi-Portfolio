@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #2c2c2c;
+    color: #e0e0e0;
+    color: #cdc9c8;
+    font-family: Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    /*color: #CDC9C8;*/
+    color: #0984e3;
+}
+a:hover{
+    /*color: #e0e0e0;*/
+    color: #00b894;
+    font-size: larger;
+}
+
+
+header{
+    height: 40px;
+    background-color: #3b3b3b;
+    color: #ffffff;
+}
+
+#cover-photo{
+    width: 100%;
+}
+#navigate{
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#div2-1-1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+#ps{
+    margin: 0 0 0 51%;
+}
+button{
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 10px 50px;
+    border: 3px solid #2c2c2c;
+    background-color: #0984e3;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+}
+button:hover {
+    background-color: #00b894;
+    font-size: larger;
+}
+#header-contact{
+    background-color: #0984e3;
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+}
+#section2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2%;
+}
+#my-photo{
+    width: 200px;
+    border-radius: 40%;
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+#section3, #section4, #section5, #section6, #section7, #section8{
+    margin: 2%;
+}
+.dur{
+    font-size: smaller;
+    color: #7b8177;
+}
+
+footer{
+    background-color: #3b3b3b;
+    color: #ffffff;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#social-media-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#footer-div1, #footer-div2{
+    display: flex;
+    flex-direction: column;
+    
+}
+.fa-brands{
+    color: #cdc9c8;
+    margin: 20px;
+    font-size: 30px;
+}
+.fa-brands:hover{
+    font-size: 40px;
+}
+#contact-info{
+    font-size: smaller;
+    margin-right: 2%;
+    margin-left: 65%;
+    font-weight: 100;
+    font-size: smaller;
+    color: #7b8177;
+}
+small{
+    margin: 0 4% 0 75%;
+    font-weight: 100;
+    font-size: smaller;
+    color: #7b8177;
+}
+
+#projects-section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project{
+    border: 2px solid;
+    border-radius: 20px;
+    width: 300px;
+    height: 225px;
+    margin: 5px;
+}
+
+.project-image{
+    width: 270px;
+    margin: 15px;
+    border-radius: 15px;
+}
+#project-name1{
+    margin: 0 5% 0 9%;
+}
+#project-name2{
+    margin: 0 20% 0 25% ;
+}
+#project-name3{
+    margin: 0 10% 0 11%;
+}
+.project-link:hover{
+    color: #00b894;
+    font-size: 16px;
+}
