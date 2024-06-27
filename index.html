@@ -3,103 +3,196 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>Saakshi Padamwar</h1>
-    <img src="./images/SaakshiPhoto.jpeg" alt="Saakshi's Photo" height = 100>
-    <h2>Summary:</h2>
-    <p>I am a Data Scientist and amateur Web Developer. This wide skill set of mine in both Data Science and Web Development makes me a very productive candidate. I also have basic Prompt engineering skills which helps me to make best use of ChatGPT. </p>
-    <hr>
-    <h2>Education:</h2>
-        <p>
-            <ul>
-            <li>
-                <b>TSSM's Bhivarabai Sawant College of Engineering and Research, Pune -</b> <i>Bachelors Of Engineering (Computer)</i>
-                <br>
-                2019-2023
-                <br>
-                CGPA: 9.59/10
-            </li>
-
-            <li>
-                <b>Karmaveer Bhaurao Patil Mahavidyalay, Pandharpur - </b><i>HSC (Science)</i>
-                <br>
-                2017-2019
-                <br>
-                Percentage: 87.85%
-            </li>
-
-            <li>
-                <b>Sinhgad Public School, Pandharpur - </b><i>10th Board CBSE</i>
-                <br>
-                2016-2017
-                <br>
-                CGPA: 9.6/10
-            </li>
-
-            </ul>
-        </p>
-
-    <hr>
-
-    <h2>Work Experience:</h2>
-    <p>
-        I have worked in a couple of companies as an Intern:
-        <ul>
-            <li>
-                <b>Infosys SpringBoard - </b>
-                <i>Machine Learning Intern</i>
-                <br>
-                Feb 2022- May 2022
-                <br>
-                In this internship I worked with Generative Adversarial Networks to increase the contrast of the images so as to make them compatible for different types of Colour Vision Deficient people.
-            </li>
+    <header>
+            <nav>
+                <div id="navigate">
+                    <a href="#section2">About</a>
+                    <a href="#section4">Education</a>
+                    <a href="#section5">Experience</a>
+                    <a href="#section6">Skills</a>
+                    <a href="#section7">Certifications</a>
+                    <a href="#section8">Projects</a>
+                </div>
+            </nav>
+    </header>
+    <main>
+        <section id="section1">
+            <img src="./images/cover-photo.png" alt="Cover Photo" id="cover-photo">
+        </section>
+        <section id="section2">
+            <section id="section2-1">
+                <h1> I am <br>Saakshi Padamwar</h1><br>
+                <h4>Computer Engineer | Web Developer | Data Analyst</h4>
+                <br><br>
+                <div id="div2-1-1">
+                    <button onclick="downloadPDF()">My Resume</button>
+                    <button id="contact-me">
+                        Contact Me
+                    </button>
+                </div>
+                
+            </section>
+            
+            <img src="./images/SaakshiPhoto.jpeg" alt="Saakshi's Photo" id="my-photo">
+        </section>
+        <section id="section3">
+            <h2>About:</h2><br>
+            <p>I am a Data Scientist and amateur Web Developer. This wide skill set of mine in both Data Science and Web Development makes me a very productive candidate. I also have basic Prompt engineering skills which helps me to make best use of ChatGPT. </p>
             <br>
-            <li>
-                <b>Elite Techno Groups - </b>
-                <i>Python for AI/ML Intern</i>
+            <p class="dur" id="ps">PS: I have used ChatGPT to build the color palette for this Portfolio website</p>
+            <br>
+        <hr>
+        </section>
+
+        <section id="section4">
+            <h2>Education:</h2><br>
+            <br>
+            <ul>
+                <li>
+                    <b>TSSM's Bhivarabai Sawant College of Engineering and Research, Pune -</b> <i>Bachelors Of Engineering (Computer)</i>
+                    <br>
+                    <span class="dur">2019-2023</span>
+                    <br>
+                    CGPA: 9.59/10
+                </li><br>
+
+                <li>
+                    <b>Karmaveer Bhaurao Patil Mahavidyalay, Pandharpur - </b><i>HSC (Science)</i>
+                    <br>
+                    <span class="dur">2017-2019</span>
+                    <br>
+                    Percentage: 87.85%
+                </li><br>
+
+                <li>
+                    <b>Sinhgad Public School, Pandharpur - </b><i>10th Board CBSE</i>
+                    <br>
+                    <span class="dur">2016-2017</span>
+                    <br>
+                    CGPA: 9.6/10
+                </li>
+            </ul><br>
+
+        <hr>
+        </section>
+        
+        <section id="section5">
+            <h2>Work Experience:</h2><br>
+            <br>
+            <ul>
+                <li>
+                    <b>Infosys SpringBoard - </b>
+                    <i>Machine Learning Intern</i>
+                    <br>
+                    <span class="dur">Feb 2022- May 2022</span>
+                    <br>
+                    In this internship I worked with Generative Adversarial Networks to increase the contrast of the images so as to make them compatible for different types of Colour Vision Deficient people.
+                </li>
                 <br>
-                Aug 2021 - Sept 2021
-                <br>
-                Training on the Python Programming language was given, and I built projects like Summer Olympics Data Analysis, and Car Price Prediction.
-            </li>
-        </ul>
-    </p>
+                <li>
+                    <b>Elite Techno Groups - </b>
+                    <i>Python for AI/ML Intern</i>
+                    <br>
+                    <span class="dur">Aug 2021 - Sept 2021</span>
+                    <br>
+                    Training on the Python Programming language was given, and I built projects like Summer Olympics Data Analysis, and Car Price Prediction.
+                </li>
+            </ul><br>
+            <hr>
+        </section>
+        
+        <section id="section6">
+            <h2>Technical Skills:</h2><br>
+            <ul>
+                <li>Python</li>
+                <li>Java</li>
+                <li>SQL</li>
+                <li>HTML, CSS and JavaScript</li>
+                <li>Data Analysis and Visualization</li>
+            </ul>
+            <br>
+            <hr>
+        </section>
+        
+        <section id="section7">
+            <h2>Awards and Certifications:</h2><br>
+            <ul>
+            <li><b>University of Michigan - </b> <i>Introduction to HTML</i> by <a href="https://coursera.org/share/ed9d876c8040c8c40fbb5d38267210b5">Coursera</a></li> 
+            <li><b>Duke University - </b> <i>Introduction to ML</i> by <a href="coursera.org/verif y/4JNPVJLFUZJ7">Coursera</a></li>
+            <li><b>NASSCOM - </b> <i>Python</i> by <a href="certificate.codingninjas.com/verify/d8c77ce3f14782f7">Coding Ninjas</a></li>
+            </ul>
+            <br>
+        <hr>
+        </section>
+        
+        <section id="section8">
+            <h2>Projects:</h2><br>
+            <div id="projects-section">
+                <a href="https://github.com/saakshipadamwar/Meteorites-Landing-Analysis" class="project-link" target="_blank">
+                    <div class="project" id="project1">
+                        <img src="./images/meteorites.jpg" alt="Meteorites Data Analysis" class="project-image">
+                        <p id="project-name1">Meteorites Landing Data Analysis</p>
+                    </div>
+                </a>
 
-    <hr>
-    <h2>Technical Skills</h2>
-    <p>
-        <ul>
-            <li>Python</li>
-            <li>SQL</li>
-            <li>HTML and CSS</li>
-            <li>Data Science and Visualization</li>
-        </ul>
-    </p>
+                <a href="https://github.com/saakshipadamwar/Guided-Projects/blob/main/Guided%20Project%20Car%20Data%20Analysis.ipynb" class="project-link" target="_blank">
+                    <div class="project" id="project1">
+                            <img src="./images/car.webp" alt="Meteorites Data Analysis" class="project-image">
+                            <p id="project-name2">Car price Prediction</p>
+                    </div>
+                </a>
 
-    <hr>
-    <h2>Awards and Certifications</h2>
-    <ul>
-       <li><b>University of Michigan - </b> <i>Introduction to HTML</i> by <a href="https://coursera.org/share/ed9d876c8040c8c40fbb5d38267210b5">Coursera</a></li> 
-       <li><b>Duke University - </b> <i>Introduction to ML</i> by <a href="coursera.org/verif y/4JNPVJLFUZJ7">Coursera</a></li>
-       <li><b>NASSCOM - </b> <i>Python</i> by <a href="certificate.codingninjas.com/verify/d8c77ce3f14782f7">Coding Ninjas</a></li>
-
-    </ul>
-
-    <hr>
-    <h2>Others</h2>
-    <ul>
-        <li><a href="./hobbies.html">My Hobbies</a></li>
-        <li><a href="./contact.html">Contact Me</a></li>
-    </ul>
-    <br>
-    
+                <a href="https://github.com/saakshipadamwar/Skill-India-AI-ML-Scholarship/blob/main/Summer%20Olympics/Summer.ipynb" class="project-link" target="_blank">
+                    <div class="project" id="project1">
+                            <img src="./images/olympics.jpeg" alt="Meteorites Data Analysis" class="project-image">
+                            <p id="project-name3">Summer Olympics Data Analysis</p>
+                    </div>
+                </a>
+            </div>
+            <br>
+        </section>        
+    </main>
     <footer>
+        <br>
+        <div class="footer-section">
+            <div id="footer-div1">
+                <a href="#section1">Home</a><br>
+                <a href="#section2">About</a><br>
+                <a href="#section4">Education</a>
+            </div>
+            <div id="footer-div2">
+                <a href="#section5">Experience</a><br>
+                <a href="#section6">Skills</a><br>
+                <a href="#section7">Certifications</a>
+            </div>
+            <div id="social-media-icons">
+                Connect with me:
+                <br>
+                <a href="https://linkedin.com/in/saakshi-padamwar"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/saakshipadamwar"><i class="fa-brands fa-square-github"></i></a>
+            </div>
+        </div>
+        <br><br>
+        <p id="contact-info">Contact Information: Email: saakshipadamwar@gmail.com</p>
         <small>
             © Saakshi Padamwar. All Rights Reserved.
         </small>
-      </footer>
+    </footer>
+    <script src="https://kit.fontawesome.com/121383e3cd.js" crossorigin="anonymous"></script>
+    <script>
+        function downloadPDF() {
+            var link = document.createElement('a');
+            link.href = 'assets/Saakshi-Resume.pdf';
+            link.download = 'Saakshi-Resume.pdf';
+            link.click();
+          }
+          document.getElementById("contact-me").addEventListener("click", function() {
+            document.getElementById("social-media-icons").scrollIntoView();
+          });       
+    </script>
 </body>
-
 </html>
