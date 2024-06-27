@@ -124,17 +124,16 @@ footer{
 }
 #contact-info{
     font-size: smaller;
-    margin-right: 2%;
-    margin-left: 65%;
+    text-align: right;
     font-weight: 100;
     font-size: smaller;
     color: #7b8177;
 }
-small{
-    margin: 0 4% 0 75%;
+#copyright{
     font-weight: 100;
     font-size: smaller;
     color: #7b8177;
+    text-align: right;
 }
 
 #projects-section{
@@ -149,6 +148,7 @@ small{
     width: 300px;
     height: 225px;
     margin: 5px;
+    text-align: center;
 }
 
 .project-image{
@@ -156,15 +156,7 @@ small{
     margin: 15px;
     border-radius: 15px;
 }
-#project-name1{
-    margin: 0 5% 0 9%;
-}
-#project-name2{
-    margin: 0 20% 0 25% ;
-}
-#project-name3{
-    margin: 0 10% 0 11%;
-}
+
 .project-link:hover{
     color: #00b894;
     font-size: 16px;
